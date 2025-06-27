@@ -1,0 +1,105 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    /* Dark color for the thumb */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+    /* Dark color for the track */
+}
+
+.your-library-box {
+  background-color: #121212;
+  padding: 0px;
+  border-radius: 10px;
+  width: 90%;           /* Responsive width */
+  max-width: 300px;     /* Limit max size */
+  margin: 20px auto;    /* Center with some space */
+  color: white;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box; /* Important for padding & width */
+}
+
+.your-library-box h2 {
+  text-align: center;
+  color: #1db954;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.song-box {
+  border: 1px solid #444;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  transition: 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.song-box:hover {
+  background-color: #1db954;
+  color: black;
+  transform: scale(1.02);
+}
+
+/* Responsive tweaks for very small screens */
+@media (max-width: 400px) {
+  .song-box {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .your-library-box h2 {
+    font-size: 18px;
+  }
+}
